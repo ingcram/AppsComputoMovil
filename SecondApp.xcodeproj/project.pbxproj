@@ -58,10 +58,8 @@
 		A2AE8BF41F6A00B9004BC372 /* SecondApp */ = {
 			isa = PBXGroup;
 			children = (
-				A2AE8BF81F6A00B9004BC372 /* AppDelegate.h */,
-				A2AE8BF91F6A00B9004BC372 /* AppDelegate.m */,
-				A2AE8BFB1F6A00B9004BC372 /* ViewController.h */,
-				A2AE8BFC1F6A00B9004BC372 /* ViewController.m */,
+				A2AE8C0D1F6A00D3004BC372 /* Main */,
+				A2AE8C0E1F6A0142004BC372 /* Controllers */,
 				A2AE8BFE1F6A00B9004BC372 /* Main.storyboard */,
 				A2AE8C011F6A00B9004BC372 /* Assets.xcassets */,
 				A2AE8C031F6A00B9004BC372 /* LaunchScreen.storyboard */,
@@ -77,6 +75,24 @@
 				A2AE8BF61F6A00B9004BC372 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2AE8C0D1F6A00D3004BC372 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A2AE8BF81F6A00B9004BC372 /* AppDelegate.h */,
+				A2AE8BF91F6A00B9004BC372 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		A2AE8C0E1F6A0142004BC372 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2AE8BFB1F6A00B9004BC372 /* ViewController.h */,
+				A2AE8BFC1F6A00B9004BC372 /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
